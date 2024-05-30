@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.cell {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+}
+
+th {
+  text-align: left;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  margin-top: 10px;
+}
+
+tr .innerRow {
+  display: flex;
+  flex-direction: column;
+}
+
